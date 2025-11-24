@@ -65,19 +65,14 @@
       flex-direction: row;
     }
 
-    .sparkle img{
-      flex-basis: 50%;
-      flex-grow: 1/-;m;
-    }
-
     .silly{
       border-radius: 10px;
       background-color: rgb(255, 249, 240);
       flex-basis: auto;
       margin: 10px;
-      width: 40%;
       border: 10px dotted white;
       flex-wrap: wrap;
+      width: 42%;
     }
 
     .warn{
@@ -104,7 +99,8 @@
       border-radius: 6px;
       border: 6px dotted white;
       background-color: rgb(255, 249, 240);
-      color: rgb(100, 149, 255);
+      color: white;
+      -webkit-text-stroke: 2px rgb(192, 211, 255);
       margin: 20px;
       padding: 6px;
       text-align: center;
