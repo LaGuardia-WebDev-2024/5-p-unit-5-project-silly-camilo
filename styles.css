@@ -70,8 +70,9 @@
       background-color: rgb(255, 249, 240);
       flex-basis: auto;
       margin: 10px;
-      width: 20%;
+      width: 40%;
       border: 10px dotted white;
+      flex-wrap: wrap;
     }
 
     .warn{
@@ -99,8 +100,8 @@
       border: 6px dotted white;
       background-color: rgb(255, 249, 240);
       color: rgb(100, 149, 255);
-      font-weight: bold;
       margin: 20px;
       padding: 6px;
       text-align: center;
+      font-family: 'Lovely Cute', sans-serif;
     }
