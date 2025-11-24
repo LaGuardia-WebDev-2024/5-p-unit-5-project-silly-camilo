@@ -65,6 +65,11 @@
       flex-direction: row;
     }
 
+    .sparkle img{
+      flex-basis: 50%;
+      flex-grow: 1/-;m;
+    }
+
     .silly{
       border-radius: 10px;
       background-color: rgb(255, 249, 240);
