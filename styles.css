@@ -56,23 +56,20 @@
     
 
     .sparkle{
-      display: flex;
-      justify-content: space-between;
       background-color: rgb(255, 233, 237);
       border-radius: 20px;
       padding: 4px;
       flex-wrap: wrap;
-      flex-direction: row;
     }
 
     .silly{
       border-radius: 10px;
       background-color: rgb(255, 249, 240);
-      flex-basis: auto;
       margin: 10px;
       border: 10px dotted white;
       flex-wrap: wrap;
-      width: 42%;
+      width: 30%;
+      align-items: center;
     }
 
     .warn{
