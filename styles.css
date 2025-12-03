@@ -153,12 +153,14 @@
       flex-direction: row;
       flex-wrap: nowrap;
       justify-content: flex-start;
+      align-items: flex-start;
+      max-height: 210px;
     }
 
     .pictures{
       background-color: rgb(255, 249, 240);
       border: 6px dashed white;
       margin: 8px;
-      width: 18%;
+      width: 16%;
       border-radius: 20px;
     }
