@@ -149,12 +149,10 @@
       margin: auto;
       overflow: scroll;
       border-radius: 20px;
-      display: flex;
-      flex-direction: row;
       flex-wrap: nowrap;
-      justify-content: flex-start;
-      align-items: flex-start;
-      max-height: 210px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      flex-grow: 0;
     }
 
     .pictures{
