@@ -1,0 +1,164 @@
+ 
+    .parallax{
+      background-image: url(https://thumbs.dreamstime.com/b/pink-gingham-pattern-vector-seamless-texture-white-114016375.jpg);
+      height: 320px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+    }
+
+    p{
+      background-color: rgb(255, 233, 237);
+      padding: 20px;
+      border-radius: 20px;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      max-width: 70%;
+      border: 4px dashed rgb(255, 255, 255);
+      color: rgb(56, 93, 173);
+      font-weight: bold;
+    }
+
+    h1{
+      font-family: 'Lovely Cute', sans-serif;
+      -webkit-text-stroke: 2px pink;
+      color: white;
+      font-size: 100px;
+      text-align: center;
+    }
+
+    h2{
+      font-family: 'Lovely Cute', sans-serif;
+      color: white;
+      text-align: center;
+      -webkit-text-stroke: 1px rgb(100, 149, 255);
+      padding: 20px;
+      margin: auto;
+    }
+
+    img{
+      border: 6px dashed rgb(255, 249, 240);
+      width: 60%;
+      border-radius: 40px;
+    }
+
+    .explainy{
+      border-radius: 20px;
+      background-color: rgb(192, 211, 255);
+      max-width: 42%;
+      margin: auto;
+      color: rgb(56, 93, 173);
+      font-weight: bold;
+      margin-bottom: 12px;
+    }
+    
+    .meowww{
+      border-radius: 20px;
+      background-color: rgb(192, 211, 255);
+      width: fit-content;
+      margin: auto;
+      color: rgb(56, 93, 173);
+      font-weight: bold;
+      margin-bottom: 12px;
+      margin-top: 12px;
+      border-left: 4px solid white;
+      border-right: 4px solid white;
+    }
+
+    .sparkle{
+      background-color: rgb(255, 233, 237);
+      border-radius: 20px;
+      padding: 4px;
+      flex-wrap: wrap;
+    }
+
+    .silly{
+      border-radius: 10px;
+      background-color: rgb(255, 249, 240);
+      margin: 10px;
+      border: 10px dotted white;
+      border-top: 10px dashed white;
+      border-bottom: 10px dashed white;
+      flex-wrap: wrap;
+      width: 30%;
+    }
+
+    .warn{
+      color: rgb(255, 143, 162);
+      font-style: italic;
+      font-weight: bolder;
+    }
+
+    .at{
+      color: rgb(100, 149, 255);
+      font-style: italic;
+      font-weight: bolder;
+    }
+
+    ul{
+      list-style-type: none;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    li{
+      display: inline;
+      border-radius: 6px;
+      border: 6px dotted white;
+      background-color: rgb(255, 249, 240);
+      color: white;
+      -webkit-text-stroke: 2px rgb(192, 211, 255);
+      margin: 20px;
+      padding: 6px;
+      text-align: center;
+      font-family: 'Lovely Cute', sans-serif;
+    }
+
+    a{
+      color: white;
+      text-decoration: none;
+    }
+
+    li:hover{
+      background-color: rgb(255, 233, 237);
+    }
+
+    th{
+      background-color: rgb(255, 233, 237);
+      border-radius: 10px;
+      padding: 6px;
+    }
+
+    td{
+      background-color: rgb(255, 249, 240);
+      border-radius: 10px;
+      padding: 6px;
+    }
+
+    table{
+      margin-bottom: 10px;
+      margin: 4px;
+    }
+
+    .gallery{
+      background-color: rgb(255, 233, 237);
+      margin: auto;
+      overflow: scroll;
+      border-radius: 20px;
+      flex-wrap: nowrap;
+      white-space: nowrap;
+      flex-shrink: 0;
+      flex-grow: 0;
+    }
+
+    .pictures{
+      background-color: rgb(255, 249, 240);
+      border: 6px dashed white;
+      margin: 8px;
+      width: 16%;
+      border-radius: 20px;
+    }
